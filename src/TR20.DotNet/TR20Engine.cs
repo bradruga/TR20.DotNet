@@ -51,8 +51,7 @@ namespace TR20.DotNet
 
             // Run TR20
             var startInfo = new ProcessStartInfo(pathExe);
-            startInfo.WindowStyle = ProcessWindowStyle.Hidden;
-            startInfo.UseShellExecute = true;
+            startInfo.WorkingDirectory = executableDirectory;
             var process = Process.Start(startInfo);
             process.WaitForExit();
 

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31423.177
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TR20.DotNet", "src\TR20.DotNet\TR20.DotNet.csproj", "{05DC28B7-E173-4D37-939D-4113B8DD86DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TR20.DotNet", "src\TR20.DotNet\TR20.DotNet.csproj", "{05DC28B7-E173-4D37-939D-4113B8DD86DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TR20.DotNet.Test", "src\TR20.DotNet.Test\TR20.DotNet.Test.csproj", "{409C27C1-0802-4B10-9B93-9D5B6D0BAA3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{05DC28B7-E173-4D37-939D-4113B8DD86DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05DC28B7-E173-4D37-939D-4113B8DD86DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05DC28B7-E173-4D37-939D-4113B8DD86DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{409C27C1-0802-4B10-9B93-9D5B6D0BAA3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{409C27C1-0802-4B10-9B93-9D5B6D0BAA3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{409C27C1-0802-4B10-9B93-9D5B6D0BAA3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{409C27C1-0802-4B10-9B93-9D5B6D0BAA3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
